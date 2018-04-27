@@ -1,3 +1,4 @@
+import numpy as np
 
 def parse():
     l1 = list(map(int, input().split()))
