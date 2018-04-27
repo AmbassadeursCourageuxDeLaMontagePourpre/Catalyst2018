@@ -19,7 +19,7 @@ def parse():
             for col_id in range(nb_col):
                 image[row_id][col_id] = l[col_id]
 
-        result.append((time_stamp, image))
+        result.append((time_stamp, image, start, end))
     return result
                 
 
